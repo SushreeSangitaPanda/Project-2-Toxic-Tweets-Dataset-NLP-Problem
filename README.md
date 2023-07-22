@@ -34,16 +34,15 @@ Description of the Code:
 - The cleaned tokens are joined back together to form the final preprocessed text.
 - The cleaned text is returned as the output of the function.
 3. It uses the Bag of Words (BoW) and TF-IDF (Term Frequency-Inverse Document Frequency) vectorization techniques to convert the textual data into numerical features.
-4. The data is split into training and test sets using a subset of 10,000 rows.
+4. The data is split into training and test sets using a subset of 10,000 rows or more depending on ram size.
 5. The code defines five different models for classification: Decision Trees, Random Forest, Naive Bayes, K-NN Classifier, and Support Vector Machine (SVM).
 6. Each model is trained using both BoW and TF-IDF features separately.
 7. Metrics such as precision, recall, F1-score, and ROC-AUC are calculated for each model and vectorization technique combination.
 8. Bar charts are generated to visualize the precision, recall, and F1-score for each model and vectorization technique.
 9. Confusion matrices and ROC curves are plotted to evaluate the performance of each model.
 10. All visualizations and metrics are saved in a single PDF named `combined_report.pdf`.
-11. The code defines a function `clean_text(text)` to preprocess the tweet text by converting it to lowercase, removing punctuation and special characters, tokenizing, removing stop words, and performing lemmatization.
-12. The preprocessing function is applied to the 'tweet' column of the DataFrame to create a new column 'cleaned_tweet' containing the preprocessed text data.
 # Conclusion
+
 
 
 
