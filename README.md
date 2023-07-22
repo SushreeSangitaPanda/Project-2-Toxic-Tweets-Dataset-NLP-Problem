@@ -21,7 +21,7 @@ The script assumes that the tweet data is available in a pandas DataFrame named 
 
 'Toxicity': Contains the binary label (0 for non-toxic and 1 for toxic) indicating the toxicity of each tweet.
 Description of the Code:
-# Steps
+# A step-by-step explanation of the code using Toxic Tweets dataset and generating various visualizations
 1. The code performs text classification using various machine learning models for toxicity detection in tweets.
 2. Function Description:
 `def clean_text(text):`
@@ -42,7 +42,7 @@ Description of the Code:
 9. Confusion matrices and ROC curves are plotted to evaluate the performance of each model.
 10. All visualizations and metrics are saved in a single PDF named `combined_report.pdf`.
 # Conclusion
-
+Based on the results, the script infers that Bag of Words (BoW) vectorization performs better in models like Decision Trees and Random Forest, which are not sensitive to word context but rely more on individual word frequencies. On the other hand, TF-IDF vectorization is more suitable for models like Naive Bayes, K-NN Classifier, and SVM, where the importance of words in the context of the entire corpus plays a crucial role in classification.
 
 
 
