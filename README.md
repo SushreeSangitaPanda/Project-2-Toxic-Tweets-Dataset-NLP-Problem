@@ -15,12 +15,12 @@ nltk: Used for natural language processing tasks like tokenization, lemmatizatio
 
 The dataset was downloaded from the following Kaggle Com-
 pitation https://www.kaggle.com/datasets/ashwiniyer176/toxic-tweets-dataset.
+
 The script assumes that the tweet data is available in a pandas DataFrame named df with two columns:
 
 'tweet': Contains the raw tweet text.
-
 'Toxicity': Contains the binary label (0 for non-toxic and 1 for toxic) indicating the toxicity of each tweet.
-Description of the Code:
+
 # A step-by-step explanation of the code using Toxic Tweets dataset and generating various visualizations
 1. The code performs text classification using various machine learning models for toxicity detection in tweets.
 2. Function Description:
