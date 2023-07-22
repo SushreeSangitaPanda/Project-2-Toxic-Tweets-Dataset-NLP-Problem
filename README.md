@@ -3,9 +3,13 @@ This dataset has a collection of Tweets. Its labelled as Toxic - 1, Non toxic - 
 # Libraries Used:
 
 pandas: Used for data manipulation and analysis.
+
 scikit-learn: Used for implementing machine learning models, preprocessing, and metrics evaluation.
+
 matplotlib: Used for data visualization.
+
 seaborn: Used for enhanced data visualization.
+
 nltk: Used for natural language processing tasks like tokenization, lemmatization, and stop words removal.
 # Data:
 
